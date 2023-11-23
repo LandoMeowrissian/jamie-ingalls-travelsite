@@ -16,7 +16,7 @@
     <div>
       <nav>
         <ul class="navbar__list">
-          <li class="navbar__link"><a href=""></a>Home</li>
+          <li class="navbar__link active"><a href=""></a>Home</li>
           <li class="navbar__link"><a href=""></a>Hawaii</li>
           <li class="navbar__link"><a href=""></a>Iceland</li>
           <li class="navbar__link"><a href=""></a>Greece</li>
@@ -45,22 +45,53 @@
   </section>
 
   <footer>
-    <div>
-      <h3>Contact</h3>
-      <p>Email</p>
-      <a href="info@travelsite.com">info@travelsite.com</a>
+    <div class="footer__element">
+      <div class="footer__element--heading">
+        <h3>Contact</h3>
+      </div>
+      <div class="footer__element--subheading">
+        <p>Email</p>
+      </div>
+      <div>
+        <a href="info@travelsite.com">info@travelsite.com</a>
+      </div>
     </div>
-    <div>
-      <h3>Hours</h3>
-      <p>Monday - Friday<br><span>9:00 AM - 5:00 PM</span></p>
-      <p>Saturday<br><span>10:00 AM - 4:00 PM</span></p>
-      <p>Sunday<br><span>Closed</span></p>
+    
+    <div class="footer__element">
+      <div class="footer__element--heading">
+        <h3>Hours</h3>
+      </div>
+        <div class="hours">
+          <p class="footer__element--hours">Monday - Friday<br><span class="times">9:00AM - 5:00PM</span></p>
+          <p class="footer__element--hours">Saturday<br><span class="times">10:00AM - 4:00PM</span></p>
+          <p class="footer__element--hours">Sunday<br><span class="times">Closed</span></p>
+        </div>
     </div>
-    <div>
+
+    <!-- <div class="footer__element">
+      <div class="footer__element--heading">
+        <h3> </h3>
+      </div>
+      
+      <div class="hours">
+        <p class="footer__element--days">Saturday</p>
+        <p class="footer__element--hours">10:00AM - 4:00PM</p>
+      </div>
+    </div>
+
+    <div class="footer__element">
+      <h3></h3>
+      <div>
+        <p class="footer__element--days">Sunday</p>
+        <p class="footer__element--hours">Closed</p>
+      </div>
+    </div> -->
+   
+    <div class="footer__element">
       <h3>Social</h3>
-        <a href="instagram.com"><img src="../icons/icon-instagram.png"/></a>
-        <a href="facebook.com"><img src="../icons/icon-facebook.png"/></a>
-        <a href="twitter.com"><img src="../icons/icon-twitter.png"/></a>
+        <a href="instagram.com"><img class="social__icon" src="../images/icon-instagram.png"/></a>
+        <a href="facebook.com"><img class="social__icon" src="../images/icon-facebook.png"/></a>
+        <a href="twitter.com"><img class="social__icon" src="../images/icon-twitter.png"/></a>
     </div>
   </footer>
 </body>
