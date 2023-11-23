@@ -16,23 +16,25 @@ body {
 
 .header-logo {
   color: #335576;
-  margin: 1rem;
-  font-size: 1rem;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  font-size: .75rem;
 }
 
 .header-navbar__list {
   display: flex;
   list-style-type: none;
-  padding-right: 1rem;
-  margin-right: 1rem;
+  padding-right: 5rem;
+  margin-right: 2rem;
 }
 
 .header-navbar__link {
   display: flex;
   margin-left: 1rem;
+  padding-left: 1rem;
   text-decoration: none;
   color: #335576;
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 .active {
@@ -54,19 +56,30 @@ body {
 
 .footer-element__subheading {
   display: flex;
+  color: #DB7A4E;
 }
 
 .footer-element__hours {
   margin-right: 2rem;
-  font-size: .75rem;
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  color: #335576;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .times {
-  margin-top: 1rem;
   display: flex;
   font-size: 1rem;
+  color: #335576; 
+  margin-top: 1rem;
 }
 
 .icon {
   margin-right: 1rem;
+  margin-top: 2rem;
+  height: 2rem;
 }
