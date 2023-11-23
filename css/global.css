@@ -47,16 +47,20 @@ body {
   color: #335576;
   display: flex;
   justify-content: space-around;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .footer-element__heading {
   display: flex;
   margin: auto;
+  font-size: 1.25rem;
 }
 
 .footer-element__subheading {
   display: flex;
   color: #DB7A4E;
+  font-size: .75rem;
 }
 
 .footer-element__hours {
@@ -79,7 +83,7 @@ body {
 }
 
 .icon {
-  margin-right: 1rem;
+  margin-right: 2rem;
   margin-top: 2rem;
   height: 2rem;
 }
