@@ -47,10 +47,13 @@ body {
   justify-content: space-around;
 }
 
-
 .footer-element__heading {
   display: flex;
   margin: auto;
+}
+
+.footer-element__subheading {
+  display: flex;
 }
 
 .footer-element__hours {
