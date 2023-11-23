@@ -3,7 +3,7 @@ body {
   padding-top: 50px;
 }
 
-header {
+.header {
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -14,20 +14,20 @@ header {
   top: 20px;
 }
 
-.header__logo {
+.header-logo {
   color: #335576;
   margin: 1rem;
   font-size: 1rem;
 }
 
-.navbar__list {
+.header-navbar__list {
   display: flex;
   list-style-type: none;
   padding-right: 1rem;
   margin-right: 1rem;
 }
 
-.navbar__link {
+.header-navbar__link {
   display: flex;
   margin-left: 1rem;
   text-decoration: none;
@@ -40,7 +40,7 @@ header {
   text-decoration-color: #DB7A4E;
 }
 
-footer {
+.footer {
   background-color: #FEFAF5;
   color: #335576;
   display: flex;
@@ -48,17 +48,12 @@ footer {
 }
 
 
-.footer__element--heading {
+.footer-element__heading {
   display: flex;
   margin: auto;
 }
 
-
-.hours {
-  display: flex;
-}
-
-.footer__element--hours {
+.footer-element__hours {
   margin-right: 2rem;
   font-size: .75rem;
 }
@@ -69,8 +64,6 @@ footer {
   font-size: 1rem;
 }
 
-
-
-.social__icon {
-  margin-right: 1rem;3
+.icon {
+  margin-right: 1rem;
 }

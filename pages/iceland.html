@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/global.css"/>
   <title>Travel Site Iceland</title>
 </head>
 <body>
-    <header>
-      <div>
-        <h1>Travel Site</h1>
-      </div>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Hawaii</a></li>
-            <li><a href="">Iceland</a></li>
-            <li><a href="">Greece</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<header class="header">
+  <div class="header-logo">
+    <h1>Travel Site</h1>
+  </div>
+  <div class="header-navbar">
+    <nav>
+      <ul class="header-navbar__list">
+        <li class="header-navbar__link"><a href=""></a>Home</li>
+        <li class="header-navbar__link"><a href=""></a>Hawaii</li>
+        <li class="header-navbar__link active"><a href=""></a>Iceland</li>
+        <li class="header-navbar__link"><a href=""></a>Greece</li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <section>
       <div>Friday</div>
@@ -28,24 +29,42 @@
       <div>Sunday</div>
     </section>
     
-    <footer>
-      <div>
-        <h3>Contact</h3>
-        <p></p>
-        <a></a>
-      </div>
-      <div>
-        <h3>Hours</h3>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div>
-        <h3>Social</h3>
-        <a href="instagram.com"><img src="../icons/icon-instagram.png"/></a>
-        <a href="facebook.com"><img src="../icons/icon-facebook.png"/></a>
-        <a href="twitter.com"><img src="../icons/icon-twitter.png"/></a>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="footer-element">
+          <div class="footer-element__heading">
+            <h3>Contact</h3>
+          </div>
+          <div class="footer-element__subheading">
+            <p>Email</p>
+          </div>
+          <div>
+            <a href="info@travelsite.com">info@travelsite.com</a>
+          </div>
+        </div>
+      
+        <div class="footer-element">
+          <div class="footer-element__heading">
+            <h3>Hours</h3>
+          </div>
+          <div class="hours">
+            <p class="footer-element__hours">Monday - Friday<br><span class="footer-element__hours times">9:00AM -
+                5:00PM</span></p>
+            <p class="footer-element__hours">Saturday<br><span class="footer-element__hours times">10:00AM - 4:00PM</span></p>
+            <p class="footer-element__hours">Sunday<br><span class="footer-element__hours times">Closed</span></p>
+          </div>
+        </div>
+      
+        <div class="footer-element">
+          <div class="footer-element__heading">
+            <h3>Social</h3>
+          </div>
+          <div class="footer-element__social">
+            <a href="instagram.com"><img class="footer-element__social icon"
+                src="../images/icon-instagram.png" /></a>
+            <a href="facebook.com"><img class="footer-element__social icon"
+                src="../images/icon-facebook.png" /></a>
+            <a href="twitter.com"><img class="footer-element__social icon"
+                src="../images/icon-twitter.png" /></a>
+          </div>
 </body>
 </html>
