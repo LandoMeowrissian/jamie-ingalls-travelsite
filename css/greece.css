@@ -8,7 +8,7 @@
   background-color: #FFFFFF;
   position: fixed;
   top: 4px;
- 
+
 }
 
 .header-logo {
@@ -21,7 +21,7 @@
 .itinerary {
   width: 100vw;
   height: 660px;
-  background-image: url(../images/hawaii.jpg);
+  background-image: url(../images/greece.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -38,7 +38,9 @@
   justify-content: center;
 }
 
-.friday, .saturday, .sunday {
+.friday,
+.saturday,
+.sunday {
   display: flex;
   justify-content: center;
   width: 260px;
@@ -57,5 +59,3 @@
   width: 100%;
   font-size: 18px;
 }
-
-
