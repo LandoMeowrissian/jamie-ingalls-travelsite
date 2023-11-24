@@ -11,7 +11,7 @@ body {
   align-items: flex-start;
   background-color: #FFFFFF;
   position: fixed;
-  top: 20px;
+  top: 10px;
 }
 
 .header-logo {
@@ -30,7 +30,7 @@ body {
 
 .header-navbar__link {
   display: flex;
-  margin-left: 1rem;
+  margin-left: .5rem;
   padding-left: 1rem;
   text-decoration: none;
   color: #335576;
@@ -49,6 +49,7 @@ body {
   justify-content: space-around;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  width: 100vw;
 }
 
 .footer-element__heading {
