@@ -1,25 +1,28 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .header {
   width: 100%;
+  height: 50px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   background-color: #FFFFFF;
   position: fixed;
-  top: 10px;
+  top: 4px;
+  /* border: 1px solid red; */
 }
 
 .header-logo {
   color: #335576;
-  margin-left: 2rem;
+  margin-left: 5rem;
   padding-left: 2rem;
-  font-size: .75rem;
+  font-size: 12px;
+  /* border: 1px solid red; */
 }
 
 .header-navbar__list {
@@ -34,8 +37,7 @@ body {
   margin-left: .5rem;
   padding-left: 1rem;
   text-decoration: none;
-  color: #335576;
-  font-size: .9rem;
+  font-size: 14px;
 }
 
 .active {
