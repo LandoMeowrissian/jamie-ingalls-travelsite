@@ -15,7 +15,6 @@
   width: 50vw;
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid red;
 }
 
 .hero-heading {
@@ -35,12 +34,13 @@
 }
 
 .hero-button {
+  font-size: .9rem;
   text-align: center;
   border-radius: 25px;
   border: none;
   background-color: #DB7A4E;
   color: #FEFAF5;
-  width: 140px;
+  width: 150px;
   padding-top: .5rem;
   padding-bottom: .5rem;
   margin: 1rem;

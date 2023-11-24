@@ -1,5 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
   padding-top: 50px;
 }
 
@@ -47,15 +48,16 @@ body {
   color: #335576;
   display: flex;
   justify-content: space-around;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100vw;
 }
 
 .footer-element__heading {
   display: flex;
   margin: auto;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 .footer-element__subheading {
@@ -78,7 +80,8 @@ body {
 
 .times {
   display: flex;
-  font-size: 1rem;
+  font-size: .9rem;
+  font-weight: 100;
   color: #335576; 
   margin-top: 1rem;
 }
@@ -86,5 +89,5 @@ body {
 .icon {
   margin-right: 2rem;
   margin-top: 2rem;
-  height: 2rem;
+  height: 1.5rem;
 }
