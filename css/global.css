@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 300;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .header {
@@ -35,12 +35,14 @@ body {
   padding-left: 1rem;
   text-decoration: none;
   color: #335576;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .active {
   text-decoration: underline;
+  text-underline-offset: .9rem;
   text-decoration-color: #DB7A4E;
+  text-decoration-thickness: 3px;
 }
 
 .footer {
