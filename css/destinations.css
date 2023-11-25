@@ -20,7 +20,7 @@
 .itinerary {
   width: 100vw;
   height: 660px;
-  background-image: url(../images/hawaii.jpg);
+  background-image: url(../assets/hawaii.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -35,6 +35,7 @@
 .itinerary-cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Allow itinerary cards to wrap on smaller screens */
 }
 
 .friday, .saturday, .sunday {
@@ -43,8 +44,8 @@
   width: 260px;
   height: 360px;
   border-radius: 5px;
-  border: 1px solid rgba(black .2);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   margin: 20px;
   font-size: 19px;
   background-color: #FEFAF5;
@@ -54,4 +55,39 @@
   height: 7%;
   width: 100%;
   font-size: 18px;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .itinerary {
+    height: auto; /* Adjust the height on smaller screens */
+  }
+
+  .itinerary-heading {
+    font-size: 40px; /* Adjust the font size for smaller screens */
+    padding-left: 2rem;
+  }
+
+  .friday, .saturday, .sunday {
+    width: 200px; /* Adjust card size for smaller screens */
+    height: auto; /* Make height adapt to content */
+    margin: 10px; /* Reduce margin on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    margin-left: 1rem;
+    padding-left: 0;
+    font-size: 8px;
+  }
+
+  .header-navbar__list {
+    padding-right: 2rem;
+  }
+  
+  .itinerary-heading {
+    padding-left: 1rem;
+  }
 }

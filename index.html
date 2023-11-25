@@ -1,122 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/global.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Travel Site Landing</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Travel Site Landing</title>
+  </head>
 
-	<body>
-		<header class="header">
-			<div class="header-logo">
-				<h2>Travel Site</h2>
-			</div>
-			<div class="header-navbar">
-				<nav>
-					<ul class="header-navbar__list">
-						<li class="header-navbar__link active"><a href=""></a>Home</li>
-						<li class="header-navbar__link"><a href=""></a>Hawaii</li>
-						<li class="header-navbar__link"><a href=""></a>Iceland</li>
-						<li class="header-navbar__link"><a href=""></a>Greece</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<div class="hero">
-				<div class="hero--leftside">
-					<h2 class="hero-heading">
-						Travelling Comes With Endless Discoveries
-					</h2>
-					<p class="hero-text">
-						Don't let your dreams be just dreams. Experience the world by
-						booking a vaction with us now.
-					</p>
-					<button class="hero-button">Get Started</button>
-				</div>
-				<div class="hero--rightside">
-					<img class="hero-img" src="./images/hero.png" />
-				</div>
-			</div>
-		</main>
-		<section>
-			<div class="recommendations">
-				<div class="recommendations-heading">
-					<h3>Recommendations</h3>
-				</div>
-				<div class="recommendations-cards">
-					<div class="recommendations-cards hawaii">
-						<h3 class="recommendations-cards__name">Hawaii</h3>
-					</div>
-					<div class="recommendations-cards iceland">
-						<h3 class="recommendations-cards__name">Iceland</h3>
-					</div>
-					<div class="recommendations-cards greece">
-						<h3 class="recommendations-cards__name">Greece</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer class="footer">
-			<div class="footer-element">
-				<div class="footer-element__heading">
-					<h3>Contact</h3>
-				</div>
-				<div class="footer-element__subheading">
-					<p>
-						Email<br />
-						<span
-							><a class="footer-element__email link" href="info@travelsite.com"
-								>info@travelsite.com</a
-							>
-						</span>
-					</p>
-				</div>
-			</div>
-			<div class="footer-element">
-				<div class="footer-element__heading">
-					<h3>Hours</h3>
-				</div>
-				<div class="footer-element__subheading">
-					<p class="footer-element__hours">
-						Monday - Friday<br /><span class="footer-element__hours times"
-							>9:00 AM - 5:00 PM</span
-						>
-					</p>
-					<p class="footer-element__hours">
-						Saturday<br /><span class="footer-element__hours times"
-							>10:00 AM - 4:00 PM</span
-						>
-					</p>
-					<p class="footer-element__hours">
-						Sunday<br /><span class="footer-element__hours times">Closed</span>
-					</p>
-				</div>
-			</div>
-			<div class="footer-element">
-				<div class="footer-element__heading">
-					<h3>Social</h3>
-				</div>
-				<div class="footer-subheading">
-					<a href="instagram.com"
-						><img
-							class="footer-element__social icon"
-							src="../images/icon-instagram.png"
-					/></a>
-					<a href="facebook.com"
-						><img
-							class="footer-element__social icon"
-							src="../images/icon-facebook.png"
-					/></a>
-					<a href="twitter.com"
-						><img
-							class="footer-element__social icon"
-							src="../images/icon-twitter.png"
-					/></a>
-				</div>
-			</div>
-		</footer>
-	</body>
+  <body>
+    <header>
+      <div class="header__logo">
+        <h2>Travel Site</h2>
+      </div>
+      <nav class="header__navbar">
+        <ul class="header-navbar__list">
+          <li class="header-navbar__link active"><a href="#">Home</a></li>
+          <li class="header-navbar__link"><a href="#">Hawaii</a></li>
+          <li class="header-navbar__link"><a href="#">Iceland</a></li>
+          <li class="header-navbar__link"><a href="#">Greece</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__leftside">
+          <h1 class="hero__heading">
+            Travelling Comes With Endless Discoveries
+          </h1>
+          <p class="hero__text">
+            Don't let your dreams be just dreams. Experience the world by
+            booking a vacation with us now.
+          </p>
+          <a href="#" class="hero__button">Get Started</a>
+        </div>
+        <div class="hero__rightside">
+          <img class="hero__img" src="./assets/hero.png" alt="Travel image" />
+        </div>
+      </section>
+    </main>
+
+    <aside class="recommendations">
+      <h3 class="recommendations__heading">Recommendations</h3>
+      <div class="recommendations__cards">
+        <article class="recommendations__card recommendations__card--hawaii">
+          <h4 class="recommendations__card-name">Hawaii</h4>
+        </article>
+        <article class="recommendations__card recommendations__card--iceland">
+          <h4 class="recommendations__card-name">Iceland</h4>
+        </article>
+        <article class="recommendations__card recommendations__card--greece">
+          <h4 class="recommendations__card-name">Greece</h4>
+        </article>
+      </div>
+    </aside>
+
+    <footer class="footer">
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Contact</h3>
+        <address class="footer-element__subheading">
+          <p>
+            Email<br />
+            <a
+              class="footer-element__email link"
+              href="mailto:info@travelsite.com"
+              >info@travelsite.com</a
+            >
+          </p>
+        </address>
+      </section>
+
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Hours</h3>
+        <div class="footer-element__subheading">
+          <div class="footer-element__subheading-days">
+            Monday - Friday
+            <div>
+              <time class="footer-element__hours-times">9:00 AM - 5:00 PM</time>
+            </div>
+          </div>
+
+          <div class="footer-element__subheading-days">
+            Saturday
+            <div>
+              <time class="footer-element__hours-times"
+                >10:00 AM - 4:00 PM</time
+              >
+            </div>
+          </div>
+
+          <div class="footer-element__subheading-days">
+            Sunday
+            <div>
+              <time class="footer-element__hours-times">Closed</time>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Social</h3>
+        <div class="footer__subheading">
+          <a href="https://instagram.com"
+            ><img
+              class="footer-element__social-icon"
+              src="../assets/icon-instagram.png"
+              alt="Instagram"
+          /></a>
+          <a href="https://facebook.com"
+            ><img
+              class="footer-element__social-icon"
+              src="../assets/icon-facebook.png"
+              alt="Facebook"
+          /></a>
+          <a href="https://twitter.com"
+            ><img
+              class="footer-element__social-icon"
+              src="../assets/icon-twitter.png"
+              alt="Twitter"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
