@@ -17,7 +17,7 @@
 .hero__heading {
   display: flex;
   align-content: flex-start;
-  font-size: 2.25rem; /* 36px converted to rem */
+  font-size: 2.25rem; 
   color: #335576;
   text-align: left;
 }
@@ -25,7 +25,7 @@
 .hero__text {
   display: flex;
   color: #335576;
-  font-size: 0.875rem; /* 14px converted to rem */
+  font-size: 0.875rem; 
   font-weight: 300;
   margin-right: 1rem;
   padding-right: 3rem;
@@ -61,7 +61,7 @@
 }
 
 .recommendations__heading {
-  font-size: 1.5rem; /* 19px converted to rem */
+  font-size: 1.5rem; 
   color: #335576;
   margin: 1rem;
   padding: 1rem;
@@ -88,6 +88,7 @@
   background-image: url(../assets/iceland.jpg);
   background-position: center;
   background-size: cover;
+  
 }
 
 .recommendations__card {
@@ -109,28 +110,3 @@
   margin-bottom: 10px;
 }
 
-.header__navbar ul {
-  list-style-type: none;
-}
-
-.header__navbar li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.footer__element h3 {
-  color: #335576;
-}
-
-.footer__element p {
-  color: #335576;
-}
-
-.footer__element a {
-  color: #335576;
-  text-decoration: none;
-}
-
-.footer__element a:hover {
-  text-decoration: underline;
-}

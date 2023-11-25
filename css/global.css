@@ -1,6 +1,5 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 300;
   padding-top: 50px;
   margin: 0;
 }
@@ -107,7 +106,7 @@ header {
 
 .footer-element__heading {
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 700;
   display: flex;
 }
 
@@ -122,10 +121,17 @@ header {
   display: flex;
 }
 
+.footer-element__email {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
 
 .footer-element__hours-times {
   color: #335576;
   margin-right: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -133,8 +139,6 @@ header {
 .link {
   text-decoration: none;
   color: #335576;
-  font-size: 1rem;
-  margin-top: 1rem;
 }
 
 .times {
@@ -147,7 +151,7 @@ header {
 
 .footer-element__social-icon {
   margin-right: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   height: 1.5rem;
 }
 

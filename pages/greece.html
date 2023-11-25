@@ -10,15 +10,15 @@
   <body>
     <header class="header">
       <div class="header-logo">
-        <h1>Travel Site</h1>
+        <h1 class="header-navbar__link"><a href="../index.html">Travel Site</a></h1>
       </div>
       <div class="header-navbar">
         <nav>
           <ul class="header-navbar__list">
-            <li class="header-navbar__link"><a href=""></a>Home</li>
-            <li class="header-navbar__link"><a href=""></a>Hawaii</li>
-            <li class="header-navbar__link"><a href=""></a>Iceland</li>
-            <li class="header-navbar__link active"><a href=""></a>Greece</li>
+            <li class="header-navbar__link"><a href="../index.html">Home</a></li>
+            <li class="header-navbar__link"><a href="./hawaii.html">Hawaii</a></li>
+            <li class="header-navbar__link"><a href="./iceland.html">Iceland</a></li>
+            <li class="header-navbar__link active"><a href="./greece.html">Greece</a></li>
           </ul>
         </nav>
       </div>
@@ -27,40 +27,40 @@
     <main>
       <div class="itinerary">
         <div class="itinerary-heading">
-          <h3 class="itinerary-heading hawaii">Greece</h3>
+          <h3 class="itinerary-heading hawaii">Hawaii</h3>
         </div>
         <div class="itinerary-cards">
           <div class="itinerary-cards friday">
-            <div class="list">
+            <div>
               <h3 class="itinerary-cards__name">Friday</h3>
-              <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Yoga</li>
+              <ul class="itinerary-cards__list">
+                <li class="itinerary-cards__list-item">Breakfast</li>
+                <li class="itinerary-cards__list-item">Lunch</li>
+                <li class="itinerary-cards__list-item">Dinner</li>
+                <li class="itinerary-cards__list-item">Yoga</li>
               </ul>
             </div>
           </div>
-
+  
           <div class="itinerary-cards saturday">
-            <div class="list">
+            <div>
               <h3 class="itinerary-cards__name">Saturday</h3>
-              <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Yoga</li>
+              <ul class="itinerary-cards__list">
+                <li class="itinerary-cards__list-item">Breakfast</li>
+                <li class="itinerary-cards__list-item">Lunch</li>
+                <li class="itinerary-cards__list-item">Dinner</li>
+                <li class="itinerary-cards__list-item">Yoga</li>
               </ul>
             </div>
           </div>
           <div class="itinerary-cards sunday">
             <div class="list">
               <h3 class="itinerary-cards__name">Sunday</h3>
-              <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Yoga</li>
+              <ul class="itinerary-cards__list">
+                <li class="itinerary-cards__list-item">Breakfast</li>
+                <li class="itinerary-cards__list-item">Lunch</li>
+                <li class="itinerary-cards__list-item">Dinner</li>
+                <li class="itinerary-cards__list-item">Yoga</li>
               </ul>
             </div>
           </div>
@@ -69,65 +69,48 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-element">
-        <div class="footer-element__heading">
-          <h3>Contact</h3>
-        </div>
-        <div class="footer-element__subheading">
-          <p>
-            Email<br />
-            <span
-              ><a class="footer-element__email link" href="info@travelsite.com"
-                >info@travelsite.com</a
-              >
-            </span>
-          </p>
-        </div>
-      </div>
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Contact</h3>
+        <article class="footer-element__subheading">
+          <div class="footer-element__email">
+            Email
+            <a class="footer-element__email link" href="mailto:info@travelsite.com">info@travelsite.com</a>
+          </div>
+        </article>
+      </section>
 
-      <div class="footer-element">
-        <div class="footer-element__heading">
-          <h3>Hours</h3>
-        </div>
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Hours</h3>
         <div class="footer-element__subheading">
-          <p class="footer-element__hours">
-            Monday - Friday<br /><span class="footer-element__hours times"
-              >9:00 AM - 5:00 PM</span
-            >
-          </p>
-          <p class="footer-element__hours">
-            Saturday<br /><span class="footer-element__hours times"
-              >10:00 AM - 4:00 PM</span
-            >
-          </p>
-          <p class="footer-element__hours">
-            Sunday<br /><span class="footer-element__hours times">Closed</span>
-          </p>
+          <div class="footer-element__subheading-days">
+            Monday - Friday
+            <div>
+              <time class="footer-element__hours-times">9:00 AM - 5:00 PM</time>
+            </div>
+          </div>
+          <div class="footer-element__subheading-days">
+            Saturday
+            <div>
+              <time class="footer-element__hours-times">10:00 AM - 4:00 PM</time>
+            </div>
+          </div>
+          <div class="footer-element__subheading-days">
+            Sunday
+            <div>
+              <time class="footer-element__hours-times">Closed</time>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="footer-element">
-        <div class="footer-element__heading">
-          <h3>Social</h3>
+      <section class="footer__element">
+        <h3 class="footer-element__heading">Social</h3>
+        <div class="footer__subheading">
+          <a href="https://instagram.com"><img class="footer-element__social-icon" src="../assets/icon-instagram.png" alt="Instagram" /></a>
+          <a href="https://facebook.com"><img class="footer-element__social-icon" src="../assets/icon-facebook.png" alt="Facebook" /></a>
+          <a href="https://twitter.com"><img class="footer-element__social-icon" src="../assets/icon-twitter.png" alt="Twitter" /></a>
         </div>
-        <div class="footer-element__social">
-          <a href="instagram.com"
-            ><img
-              class="footer-element__social icon"
-              src="../images/icon-instagram.png"
-          /></a>
-          <a href="facebook.com"
-            ><img
-              class="footer-element__social icon"
-              src="../images/icon-facebook.png"
-          /></a>
-          <a href="twitter.com"
-            ><img
-              class="footer-element__social icon"
-              src="../images/icon-twitter.png"
-          /></a>
-        </div>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

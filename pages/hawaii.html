@@ -10,14 +10,14 @@
 <body>
   <header>
     <div class="header__logo">
-      <h1>Travel Site</h1>
+      <h1 class="header-navbar__link"><a href="../index.html">Travel Site</a></h1>
     </div>
     <nav class="header__navbar">
       <ul class="header-navbar__list">
-        <li class="header-navbar__link"><a href="#">Home</a></li>
-        <li class="header-navbar__link active"><a href="#">Hawaii</a></li>
-        <li class="header-navbar__link"><a href="#">Iceland</a></li>
-        <li class="header-navbar__link"><a href="#">Greece</a></li>
+        <li class="header-navbar__link"><a href="../index.html">Home</a></li>
+        <li class="header-navbar__link active"><a href="./hawaii.html">Hawaii</a></li>
+        <li class="header-navbar__link"><a href="./iceland.html">Iceland</a></li>
+        <li class="header-navbar__link"><a href="./greece.html">Greece</a></li>
       </ul>
     </nav>
   </header>
@@ -29,36 +29,36 @@
       </div>
       <div class="itinerary-cards">
         <div class="itinerary-cards friday">
-          <div class="list">
+          <div>
             <h3 class="itinerary-cards__name">Friday</h3>
-            <ul>
-              <li>Breakfast</li>
-              <li>Lunch</li>
-              <li>Dinner</li>
-              <li>Yoga</li>
+            <ul class="itinerary-cards__list">
+              <li class="itinerary-cards__list-item">Breakfast</li>
+              <li class="itinerary-cards__list-item">Lunch</li>
+              <li class="itinerary-cards__list-item">Dinner</li>
+              <li class="itinerary-cards__list-item">Yoga</li>
             </ul>
           </div>
         </div>
 
         <div class="itinerary-cards saturday">
-          <div class="list">
+          <div>
             <h3 class="itinerary-cards__name">Saturday</h3>
-            <ul>
-              <li>Breakfast</li>
-              <li>Lunch</li>
-              <li>Dinner</li>
-              <li>Yoga</li>
+            <ul class="itinerary-cards__list">
+              <li class="itinerary-cards__list-item">Breakfast</li>
+              <li class="itinerary-cards__list-item">Lunch</li>
+              <li class="itinerary-cards__list-item">Dinner</li>
+              <li class="itinerary-cards__list-item">Yoga</li>
             </ul>
           </div>
         </div>
         <div class="itinerary-cards sunday">
           <div class="list">
             <h3 class="itinerary-cards__name">Sunday</h3>
-            <ul>
-              <li>Breakfast</li>
-              <li>Lunch</li>
-              <li>Dinner</li>
-              <li>Yoga</li>
+            <ul class="itinerary-cards__list">
+              <li class="itinerary-cards__list-item">Breakfast</li>
+              <li class="itinerary-cards__list-item">Lunch</li>
+              <li class="itinerary-cards__list-item">Dinner</li>
+              <li class="itinerary-cards__list-item">Yoga</li>
             </ul>
           </div>
         </div>
@@ -69,26 +69,35 @@
   <footer class="footer">
     <section class="footer__element">
       <h3 class="footer-element__heading">Contact</h3>
-      <address class="footer-element__subheading">
-        <p>
-          Email<br />
+      <article class="footer-element__subheading">
+        <div class="footer-element__email">
+          Email
           <a class="footer-element__email link" href="mailto:info@travelsite.com">info@travelsite.com</a>
-        </p>
-      </address>
+        </div>
+      </article>
     </section>
 
     <section class="footer__element">
       <h3 class="footer-element__heading">Hours</h3>
       <div class="footer-element__subheading">
-        <p>
-          Monday - Friday<br /><time class="footer-element__hours-times">9:00 AM - 5:00 PM</time>
-        </p>
-        <p>
-          Saturday<br /><time class="footer-element__hours-times">10:00 AM - 4:00 PM</time>
-        </p>
-        <p>
-          Sunday<br /><time class="footer-element__hours-times">Closed</time>
-        </p>
+        <div class="footer-element__subheading-days">
+          Monday - Friday
+          <div>
+            <time class="footer-element__hours-times">9:00 AM - 5:00 PM</time>
+          </div>
+        </div>
+        <div class="footer-element__subheading-days">
+          Saturday
+          <div>
+            <time class="footer-element__hours-times">10:00 AM - 4:00 PM</time>
+          </div>
+        </div>
+        <div class="footer-element__subheading-days">
+          Sunday
+          <div>
+            <time class="footer-element__hours-times">Closed</time>
+          </div>
+        </div>
       </div>
     </section>
 
