@@ -35,7 +35,7 @@
 .itinerary-cards {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allow itinerary cards to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .friday, .saturday, .sunday {
@@ -57,22 +57,20 @@
   font-size: 18px;
 }
 
-/* Media queries for responsiveness */
-
 @media (max-width: 768px) {
   .itinerary {
-    height: auto; /* Adjust the height on smaller screens */
+    height: auto;
   }
 
   .itinerary-heading {
-    font-size: 40px; /* Adjust the font size for smaller screens */
+    font-size: 40px; 
     padding-left: 2rem;
   }
 
   .friday, .saturday, .sunday {
-    width: 200px; /* Adjust card size for smaller screens */
-    height: auto; /* Make height adapt to content */
-    margin: 10px; /* Reduce margin on smaller screens */
+    width: 200px; 
+    height: auto; 
+    margin: 10px; 
   }
 }
 
