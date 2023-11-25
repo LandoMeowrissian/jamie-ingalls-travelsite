@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": false,
+  "html.format.enable": false,
+  "html.hover.documentation": false,
+  "html.hover.references": false,
+  "prettier.useTabs": true
+}
