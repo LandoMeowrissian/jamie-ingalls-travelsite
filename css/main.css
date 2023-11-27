@@ -88,7 +88,6 @@
   background-image: url(../assets/iceland.jpg);
   background-position: center;
   background-size: cover;
-  
 }
 
 .recommendations__card {
@@ -110,3 +109,31 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero__leftside,
+  .hero__rightside {
+    width: auto;
+    align-items: center;
+  }
+  .hero__heading {
+    font-size: 1.75rem; 
+  }
+ 
+}
+@media (max-width: 480px) {
+  .hero__heading {
+    font-size: 1.5rem; 
+  }
+  .hero__text {
+    font-size: 0.75rem; 
+  }
+  .hero__button {
+    width: auto;
+    padding: 0.5rem;
+  }
+  
+}
