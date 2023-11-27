@@ -1,7 +1,23 @@
-.itinerary {
+.itinerary-hawaii {
   width: 100vw;
   height: 660px;
   background-image: url(../assets/hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.itinerary-iceland {
+  width: 100vw;
+  height: 660px;
+  background-image: url(../assets/iceland.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.itinerary-greece {
+  width: 100vw;
+  height: 660px;
+  background-image: url(../assets/greece.jpg);
   background-position: center;
   background-size: cover;
 }
