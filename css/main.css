@@ -104,6 +104,10 @@
   font-size: 1.1875rem; 
 }
 
+.recommendations__card-link {
+  text-decoration: none;
+}
+
 .recommendations__card-name {
   padding-right: 1rem;
   margin-bottom: 10px;
